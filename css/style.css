@@ -1,0 +1,30 @@
+#first button{
+    margin: 20px;
+    padding: 10px;
+}
+.btn.btn-primary:hover{background-color:aqua;color: azure;}
+.btn.btn-secondary:hover{background-color:azure; color:aqua;}
+.btn.btn-success:hover{background-color:brown; color:cadetblue;}
+.btn.btn-danger:hover{background-color:darkblue; color:aliceblue;cursor: cell;}
+.btn.btn-warning:hover{cursor:crosshair;}
+.btn.btn-info:hover{cursor: grab;}
+.btn.btn-light:hover{background-color: darksalmon;}
+.btn.btn-dark:hover{cursor: move;}
+
+section{margin:30px}
+
+form{ border: 1px dashed blue;}
+
+.progress{
+    height: 20px;
+    margin: 10px 0;
+}
+
+.pagination{
+    --bs-pagination-color: rgb(48, 129, 62) !important;
+}
+
+.btn-group{ 
+    width: 200px;
+    float: left;
+}
